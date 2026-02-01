@@ -12,9 +12,9 @@ gantt
     Redacción anteproyecto      :         des3, after des2, 5d
 
     section Fase 2: Ejecución
-    Instalación Servidor        :         crit, 2026-02-01, 7d
+    Instalación Servidor        :         crit, 2026-02-01, 8d
     Diseño Packet Tracer        :               2026-02-09, 5d
-    Configuración Servicios     :         crit, 2026-02-15, 15d
+    Configuración Servicios     :         crit, 2026-02-14, 15d
 
     
     section Fase 3: Documentación
