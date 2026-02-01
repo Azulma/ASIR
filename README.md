@@ -22,7 +22,7 @@ gantt
 
     section Fase 4: Preparación de la Defensa
     Redacción del discurso de defensa (Script cronometrado) :c1, 2026-05-20, 10d
-    Presentación PowerPoint                                 
+    Presentación PowerPoint                                 :c1, 2026-05-20, 10d
     Preparación y aseguramiento del entorno de DEMO en vivo :c2, 2026-05-20, 14d
     
     
