@@ -27,6 +27,7 @@ gantt
     Preparación y aseguramiento del entorno de DEMO en vivo :c2, 2026-04-20, 14d
     
     
-    section HITO FINAL
-    DÍA DE LA DEFENSA ANTE TRIBUNAL :milestone, 2026-05-21, 0d
+    section ENTREGAS PROYECTO
+    1º Entrega 1     :milestone, 2026-03-01, 0d
+    DEFENSA PROYECTO :milestone, 2026-05-21, 0d
 
