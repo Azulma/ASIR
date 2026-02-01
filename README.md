@@ -5,7 +5,6 @@ gantt
     title Cronograma Proyecto Fin de Grado
     dateFormat  YYYY-MM-DD
     axisFormat  %d/%m
-    todayMarker on
 
     section Fase 1: Investigación
     Elección del tema           :done,    des1, 2026-02-01, 3d
