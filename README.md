@@ -8,8 +8,8 @@ gantt
 
     section Fase 1: Planificación
     Elección del tema           :         F1.1, 2026-01-27, 3d
-    Búsqueda bibliográfica      :         F1.2, after F1.1, 5d
-    Redacción memoria           :         F1.3, after F1.2, 5d
+    Búsqueda bibliográfica      :         F12, after F1.1, 5d
+    Redacción memoria           :         F1.3, after F12, 5d
 
     section Fase 2: Ejecución
     Instalación Servidor        :         crit, 2026-02-01, 8d
