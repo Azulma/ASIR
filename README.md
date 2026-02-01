@@ -43,3 +43,6 @@ gantt
     
     section HITO FINAL
     DÍA DE LA DEFENSA ANTE TRIBUNAL :milestone, 2026-05-21, 0d
+
+    'sectionBkgColor': '#ecf0f1',   // <-- Gris clarito
+    'sectionBkgColor2': '#bdc3c7',  // <-- Gris un poco más oscuro
