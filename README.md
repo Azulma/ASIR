@@ -7,8 +7,8 @@ gantt
     axisFormat  %d/%m
 
     section Fase 1: Planificación
-    Elección del tema           :         des1, 2026-02-01, 3d
-    Búsqueda bibliográfica      :         des2, after des1, 5d
+    Elección del tema           :         F1.1, 2026-01-27, 3d
+    Búsqueda bibliográfica      :         des2, after F1.1, 5d
     Redacción anteproyecto      :         des3, after des2, 5d
 
     section Fase 2: Ejecución
