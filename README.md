@@ -23,12 +23,14 @@ gantt
     Maquetacion Final           :         F3c, after F3b, 5d
 
     section Fase 4 Defensa
-    Preparacion Presentacion    :         F4a, 2026-05-15, 10d
+    Preparacion Presentacion    :         F4a, 2026-05-08, 5d
     Ensayo de Discurso          :         F4b, after F4a, 5d
-    Preparacion Demo en Vivo    :         F4c, 2026-05-20, 10d
+    Preparacion Demo en Vivo    :         F4c, 2026-05-15, 5d
 
-    section Hitos
-    Entrega Anteproyecto        :milestone, 2026-02-20, 0d
-    Entrega Memoria             :milestone, 2026-05-05, 0d
-    DEFENSA TFG                 :milestone, 2026-06-10, 0d
+    section Entregas
+    Entrega parcial 1           :milestone, 2026-03-02, 0d
+    Entrega parcial 2           :milestone, 2026-04-07, 0d
+    Entrega parcial 3           :milestone, 2026-05-04, 0d
+    Entrega final memoria       :milestone, 2026-05-07, 0d
+    Entrega final presentacion  :milestone, 2026-05-07, 0d
 ```
