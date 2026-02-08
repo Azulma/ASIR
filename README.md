@@ -2,32 +2,33 @@
 
 ```mermaid
 gantt
-    title Cronograma Proyecto Fin de Grado
+    title Cronograma Proyecto Fin de Grado (2026)
     dateFormat  YYYY-MM-DD
     axisFormat  %d/%m
 
     section Fase 1: Planificación
-    Elección del tema           :         F1a, 2026-01-27, 3d
-    Búsqueda bibliográfica      :         F1b, after F1a, 5d
-    Redacción memoria           :         F1c, after F1b, 5d
+    Elección del tema           :done,    F1a, 2026-02-10, 3d
+    Búsqueda bibliográfica      :active,  F1b, after F1a, 7d
+    Planificación de tareas     :         F1c, after F1b, 5d
 
     section Fase 2: Ejecución
-    Instalación Servidor        :         crit, 2026-02-01, 8d
-    Diseño Packet Tracer        :               2026-02-09, 5d
-    Configuración Servicios     :         crit, 2026-02-14, 15d
+    Instalación Servidor Base   :crit,    F2a, 2026-02-25, 5d
+    Diseño Red (Packet Tracer)  :         F2b, after F2a, 7d
+    Configuración Servicios     :crit,    F2c, after F2b, 20d
+    Pruebas de Seguridad        :         F2d, after F2c, 10d
 
-    
     section Fase 3: Documentación
-    Redacción Memoria           :         2026-03-05, 20d
-    Preparación Defensa         :         2026-03-25, 5d
+    Borrador de Memoria         :         F3a, 2026-03-15, 30d
+    Revisión y Correcciones     :         F3b, after F3a, 10d
+    Maquetación Final           :         F3c, after F3b, 5d
 
-    section Fase 4: Preparación de la Defensa
-    Redacción del discurso de defensa (Script cronometrado) :c1, 2026-04-20, 10d
-    Presentación PowerPoint                                 :c1, 2026-04-20, 10d
-    Preparación y aseguramiento del entorno de DEMO en vivo :c2, 2026-04-20, 14d
-    
-    
-    section ENTREGAS PROYECTO
-    1º Entrega 1     :milestone, 2026-03-01, 0d
-    DEFENSA PROYECTO :milestone, 2026-05-21, 0d
+    section Fase 4: Defensa
+    Preparación Presentación    :c1,      F4a, 2026-05-15, 10d
+    Ensayo de Discurso          :c1,      F4b, after F4a, 5d
+    Preparación Demo en Vivo    :c2,      F4c, 2026-05-20, 10d
 
+    section Hitos
+    Entrega Anteproyecto        :milestone, 2026-02-20, 0d
+    Entrega Memoria             :milestone, 2026-05-05, 0d
+    DEFENSA TFG                 :milestone, 2026-06-10, 0d
+```
